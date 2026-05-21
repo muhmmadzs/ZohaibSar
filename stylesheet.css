@@ -196,8 +196,8 @@ h1 {
   max-width: 850px;
   margin-bottom: 1rem;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.6rem, 6.2vw, 5rem);
-  line-height: 1.02;
+  font-size: clamp(2.25rem, 5vw, 4.15rem);
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
@@ -205,7 +205,7 @@ h1 {
   max-width: 760px;
   margin-bottom: 1.35rem;
   color: var(--coral);
-  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-size: clamp(1.08rem, 1.65vw, 1.28rem);
   font-weight: 760;
   line-height: 1.35;
 }
@@ -305,7 +305,8 @@ h1 {
 .expertise-card,
 .project-card,
 .education-card,
-.publication {
+.publication,
+.work-card {
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid rgba(219, 229, 226, 0.9);
   border-radius: var(--radius);
@@ -366,8 +367,8 @@ h1 {
 .contact-section h2 {
   margin-bottom: 1rem;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.75rem, 3vw, 2.55rem);
-  line-height: 1.12;
+  font-size: clamp(1.55rem, 2.35vw, 2.15rem);
+  line-height: 1.16;
   letter-spacing: 0;
 }
 
@@ -392,13 +393,15 @@ h1 {
 
 .expertise-card,
 .project-card,
-.education-card {
+.education-card,
+.work-card {
   padding: 1.3rem;
 }
 
 .expertise-card h3,
 .project-card h3,
 .education-card h3,
+.work-card h3,
 .publication h3,
 .timeline-item h3 {
   margin-bottom: 0.55rem;
@@ -409,6 +412,7 @@ h1 {
 .expertise-card p,
 .project-card p,
 .education-card p,
+.work-card p,
 .timeline-item p,
 .publication p,
 .contact-section p {
@@ -447,6 +451,71 @@ h1 {
 .project-date {
   margin-bottom: 0.55rem;
   color: var(--amber);
+}
+
+.work-section {
+  border-top: 1px solid rgba(219, 229, 226, 0.8);
+  border-bottom: 1px solid rgba(219, 229, 226, 0.8);
+}
+
+.work-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.35fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.work-card {
+  display: grid;
+  align-content: start;
+}
+
+.work-card-lead {
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.1), transparent 48%),
+    var(--surface-strong);
+}
+
+.work-card-lead h3 {
+  font-size: 1.16rem;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mini-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.35rem;
+}
+
+.compact-list {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0;
+  margin: 0;
+  color: var(--muted);
+  list-style: none;
+}
+
+.compact-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.compact-list li::before {
+  position: absolute;
+  top: 0.72em;
+  left: 0;
+  width: 0.34rem;
+  height: 0.34rem;
+  content: "";
+  background: var(--teal);
+  border-radius: 50%;
 }
 
 .publication-list {
@@ -543,6 +612,10 @@ h1 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .work-layout {
+    grid-template-columns: 1fr;
+  }
+
   .contact-actions {
     justify-content: flex-start;
   }
@@ -563,7 +636,7 @@ h1 {
   }
 
   .nav-links {
-    max-width: 17rem;
+    max-width: 19rem;
   }
 
   .section {
@@ -576,11 +649,12 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2.35rem, 12vw, 3.55rem);
+    font-size: clamp(2.05rem, 10vw, 3rem);
   }
 
   .hero-actions,
-  .contact-actions {
+  .contact-actions,
+  .mini-actions {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -599,7 +673,8 @@ h1 {
 
   .expertise-grid,
   .project-grid,
-  .education-grid {
+  .education-grid,
+  .work-grid {
     grid-template-columns: 1fr;
   }
 
