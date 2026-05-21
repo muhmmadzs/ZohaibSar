@@ -518,6 +518,21 @@ h1 {
   border-radius: 50%;
 }
 
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  list-style: none;
+}
+
+.contact-list a {
+  color: var(--teal-dark);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
 .publication-list {
   display: grid;
   gap: 0.85rem;
