@@ -129,17 +129,37 @@ strong {
 .brand {
   display: inline-flex;
   width: auto;
-  height: 2.55rem;
+  min-height: 3rem;
   align-items: center;
   justify-content: center;
-  padding: 0 0.95rem;
-  color: var(--surface);
-  font-size: 0.9rem;
-  font-weight: 800;
+  gap: 0.65rem;
+  padding: 0.35rem 0.9rem 0.35rem 0.4rem;
+  color: var(--teal-dark);
+  font-size: 1rem;
+  font-weight: 850;
   letter-spacing: 0;
   text-decoration: none;
-  background: var(--teal-dark);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(219, 229, 226, 0.95);
   border-radius: 999px;
+  box-shadow: 0 12px 30px rgba(23, 33, 31, 0.08);
+}
+
+.brand-mark {
+  display: inline-grid;
+  width: 2.25rem;
+  height: 2.25rem;
+  place-items: center;
+  color: var(--surface);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  background: linear-gradient(135deg, var(--teal-dark), var(--teal));
+  border-radius: 50%;
+}
+
+.brand-name {
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -703,6 +723,16 @@ h1 {
   .nav {
     align-items: flex-start;
     padding: 1rem 0;
+  }
+
+  .brand {
+    padding-right: 0.75rem;
+  }
+
+  .brand-name {
+    max-width: 9.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .nav-links {
