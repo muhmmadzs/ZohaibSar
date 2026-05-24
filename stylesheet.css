@@ -631,6 +631,68 @@ h1 {
   padding-bottom: 4rem;
 }
 
+.open-to-section {
+  display: block;
+  border-top: 1px solid var(--line);
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.open-to-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.open-to-card {
+  padding: 1.25rem 1.35rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.open-to-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: var(--teal-dark);
+}
+
+.open-to-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.languages-section {
+  display: block;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.languages-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem 2.5rem;
+  margin-top: 1rem;
+}
+
+.language-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.language-item strong {
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.language-item span {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
 .thesis {
   margin-top: 0.75rem;
   font-size: 0.95rem;
@@ -778,7 +840,8 @@ h1 {
   .expertise-grid,
   .project-grid,
   .education-grid,
-  .work-grid {
+  .work-grid,
+  .open-to-grid {
     grid-template-columns: 1fr;
   }
 
