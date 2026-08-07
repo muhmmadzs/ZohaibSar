@@ -1,0 +1,39 @@
+{
+  "updated": "2026-08-07",
+  "citations": 450,
+  "h_index": 9,
+  "i10_index": 9,
+  "publications_count": 16,
+  "top": [
+    {
+      "title": "Deep autoencoder architecture for bridge damage assessment using responses from several vehicles",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:zYLM7Y9cAGgC",
+      "citations": 129,
+      "year": 2021
+    },
+    {
+      "title": "Instant bridge visual inspection using an unmanned aerial vehicle by image capturing and geo-tagging system and deep convolutional neural network",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:UeHWp8X0CEIC",
+      "citations": 88,
+      "year": 2021
+    },
+    {
+      "title": "Probabilistic autoencoder-based bridge damage assessment using train-induced responses",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:WF5omc3nYNoC",
+      "citations": 52,
+      "year": 2024
+    },
+    {
+      "title": "Bridge displacement estimation using a co-located acceleration and strain",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:9yKSN-GCB0IC",
+      "citations": 51,
+      "year": 2020
+    },
+    {
+      "title": "Vehicle assisted bridge damage assessment using probabilistic deep learning",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:Tyk-4Ss8FVUC",
+      "citations": 44,
+      "year": 2023
+    }
+  ]
+}
