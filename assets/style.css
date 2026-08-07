@@ -388,7 +388,7 @@ section.block { padding-top: 56px; padding-bottom: 56px; }
   border-radius: 8px;
   padding: 6px 12px;
   filter: grayscale(1);
-  opacity: .75;
+  opacity: .9;
   transition: filter .25s ease, opacity .25s ease;
 }
 .affil-item:hover { filter: none; opacity: 1; }
