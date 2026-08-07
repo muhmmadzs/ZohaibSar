@@ -385,17 +385,17 @@ section.block { padding-top: 56px; padding-bottom: 56px; }
   justify-content: center;
   background: #fff;
   border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 10px 18px;
+  border-radius: 8px;
+  padding: 6px 12px;
   filter: grayscale(1);
   opacity: .75;
   transition: filter .25s ease, opacity .25s ease;
 }
 .affil-item:hover { filter: none; opacity: 1; }
 .affil-item img {
-  height: 30px;
+  height: 18px;
   width: auto;
-  max-width: 150px;
+  max-width: 90px;
   object-fit: contain;
   display: block;
 }
