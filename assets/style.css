@@ -393,9 +393,10 @@ section.block { padding-top: 56px; padding-bottom: 56px; }
 }
 .affil-item:hover { filter: none; opacity: 1; }
 .affil-item img {
-  height: 18px;
+  max-height: 16px;
+  max-width: 92px;
   width: auto;
-  max-width: 90px;
+  height: auto;
   object-fit: contain;
   display: block;
 }
