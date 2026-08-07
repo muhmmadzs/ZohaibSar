@@ -52,7 +52,7 @@
 
   /* ---------- dot-grid canvas ---------- */
   var canvas = document.getElementById("dotgrid");
-  var dotPalette = { line: "#DCE7E6", teal: "#0F766E" };
+  var dotPalette = { line: "#DEE5EF", teal: "#2563EB" };
 
   function refreshDotPalette() {
     var cs = getComputedStyle(document.documentElement);

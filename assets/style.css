@@ -1,21 +1,21 @@
 /* ==========================================================================
    Muhammad Zohaib Sarwar — portfolio design system
-   Teal variant of a warm-paper editorial layout.
+   Deep-blue variant of a warm-paper editorial layout.
    Space Grotesk (display) · Inter (body) · IBM Plex Mono (meta)
    ========================================================================== */
 
 :root {
-  --paper: #F6FAF9;
+  --paper: #F7F9FC;
   --card: #FFFFFF;
-  --ink: #182226;
-  --muted: #54666B;
-  --faint: #7E9095;
-  --line: #DCE7E6;
-  --teal: #0F766E;
-  --teal-ink: #0B514C;
-  --teal-soft: rgba(15, 118, 110, .10);
-  --shadow: 0 10px 30px rgba(24, 34, 38, .08);
-  --shadow-lift: 0 14px 32px -16px rgba(15, 118, 110, .35);
+  --ink: #16202E;
+  --muted: #526075;
+  --faint: #7D8DA0;
+  --line: #DEE5EF;
+  --teal: #2563EB;
+  --teal-ink: #1D4ED8;
+  --teal-soft: rgba(37, 99, 235, .10);
+  --shadow: 0 10px 30px rgba(22, 32, 46, .08);
+  --shadow-lift: 0 14px 32px -16px rgba(37, 99, 235, .35);
   --radius: 14px;
   --wrap: 1080px;
   --font-display: "Space Grotesk", "Inter", sans-serif;
@@ -25,17 +25,17 @@
 }
 
 html[data-theme="dark"] {
-  --paper: #0B1517;
-  --card: #122023;
-  --ink: #EAF2F1;
-  --muted: #9DB4B6;
-  --faint: #6F8689;
-  --line: #24393D;
-  --teal: #4FD1C5;
-  --teal-ink: #7FE3D9;
-  --teal-soft: rgba(79, 209, 197, .12);
+  --paper: #0B1220;
+  --card: #121C2E;
+  --ink: #EAF0F8;
+  --muted: #9DAEC6;
+  --faint: #6E8098;
+  --line: #24344D;
+  --teal: #60A5FA;
+  --teal-ink: #93C5FD;
+  --teal-soft: rgba(96, 165, 250, .12);
   --shadow: 0 10px 30px rgba(0, 0, 0, .45);
-  --shadow-lift: 0 14px 32px -16px rgba(79, 209, 197, .28);
+  --shadow-lift: 0 14px 32px -16px rgba(96, 165, 250, .28);
   color-scheme: dark;
 }
 
@@ -286,7 +286,7 @@ nav.site-nav {
 .btn:hover { transform: translateY(-2px); border-color: var(--teal); color: var(--ink); }
 .btn.primary { background: var(--teal); border-color: var(--teal); color: var(--paper); }
 .btn.primary:hover { box-shadow: var(--shadow-lift); color: var(--paper); }
-html[data-theme="dark"] .btn.primary { color: #08211E; }
+html[data-theme="dark"] .btn.primary { color: #071023; }
 
 .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0; }
 
@@ -627,7 +627,7 @@ section.block { padding-top: 56px; padding-bottom: 56px; }
   margin-left: 8px;
   vertical-align: 2px;
 }
-html[data-theme="dark"] .open-badge { color: #08211E; }
+html[data-theme="dark"] .open-badge { color: #071023; }
 .open-foot {
   display: flex;
   align-items: center;

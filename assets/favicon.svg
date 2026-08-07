@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0F766E"/>
-  <text x="32" y="42" text-anchor="middle" font-family="ui-monospace, 'IBM Plex Mono', Menlo, monospace" font-size="24" font-weight="700" fill="#F6FAF9">MZ</text>
+  <rect width="64" height="64" rx="14" fill="#2563EB"/>
+  <text x="32" y="42" text-anchor="middle" font-family="ui-monospace, 'IBM Plex Mono', Menlo, monospace" font-size="24" font-weight="700" fill="#F7F9FC">MZ</text>
 </svg>
