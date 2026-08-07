@@ -539,6 +539,33 @@ section.block { padding-top: 56px; padding-bottom: 56px; }
 .timeline-item .meta { color: var(--teal); font-size: 14px; font-weight: 500; margin-bottom: 8px; }
 .timeline-item p:last-child { color: var(--muted); font-size: 14.5px; margin: 0; }
 
+/* timeline / card org logos */
+.tl-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.org-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 5px 10px;
+  flex-shrink: 0;
+}
+.org-logo img {
+  max-height: 18px;
+  max-width: 90px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
 /* ---------- languages strip ---------- */
 
 .lang-grid {
