@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20",
-  "citations": 458,
+  "updated": "2026-09-03",
+  "citations": 465,
   "h_index": 9,
   "i10_index": 9,
   "publications_count": 16,
@@ -8,7 +8,7 @@
     {
       "title": "Deep autoencoder architecture for bridge damage assessment using responses from several vehicles",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:zYLM7Y9cAGgC",
-      "citations": 130,
+      "citations": 131,
       "year": 2021
     },
     {
@@ -20,7 +20,7 @@
     {
       "title": "Bridge displacement estimation using a co-located acceleration and strain",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:9yKSN-GCB0IC",
-      "citations": 53,
+      "citations": 55,
       "year": 2020
     },
     {
@@ -32,7 +32,7 @@
     {
       "title": "Vehicle assisted bridge damage assessment using probabilistic deep learning",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:Tyk-4Ss8FVUC",
-      "citations": 45,
+      "citations": 46,
       "year": 2023
     }
   ]
