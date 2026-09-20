@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15",
-  "citations": 470,
+  "updated": "2026-09-20",
+  "citations": 473,
   "h_index": 9,
   "i10_index": 9,
   "publications_count": 16,
@@ -26,13 +26,13 @@
     {
       "title": "Probabilistic autoencoder-based bridge damage assessment using train-induced responses",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:WF5omc3nYNoC",
-      "citations": 53,
+      "citations": 54,
       "year": 2024
     },
     {
       "title": "Vehicle assisted bridge damage assessment using probabilistic deep learning",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:Tyk-4Ss8FVUC",
-      "citations": 46,
+      "citations": 47,
       "year": 2023
     }
   ]
