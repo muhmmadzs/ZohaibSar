@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07",
-  "citations": 482,
+  "updated": "2026-10-12",
+  "citations": 486,
   "h_index": 9,
   "i10_index": 9,
   "publications_count": 16,
@@ -8,13 +8,13 @@
     {
       "title": "Deep autoencoder architecture for bridge damage assessment using responses from several vehicles",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:zYLM7Y9cAGgC",
-      "citations": 133,
+      "citations": 134,
       "year": 2021
     },
     {
       "title": "Instant bridge visual inspection using an unmanned aerial vehicle by image capturing and geo-tagging system and deep convolutional neural network",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:UeHWp8X0CEIC",
-      "citations": 95,
+      "citations": 96,
       "year": 2021
     },
     {
@@ -26,7 +26,7 @@
     {
       "title": "Probabilistic autoencoder-based bridge damage assessment using train-induced responses",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QbvTuaIAAAAJ&pagesize=100&citation_for_view=QbvTuaIAAAAJ:WF5omc3nYNoC",
-      "citations": 55,
+      "citations": 56,
       "year": 2024
     },
     {
